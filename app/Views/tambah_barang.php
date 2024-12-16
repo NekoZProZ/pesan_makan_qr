@@ -29,7 +29,7 @@
                             <form class="form-horizontal" method="post" enctype="multipart/form-data" action="<?=base_url('home/aksi_tambah_barang')?>">
                                 <div class="card-body">
                                     <h4 class="card-title">Tambah</h4>
-                                    <div class="form-group row">
+                                    <!-- <div class="form-group row">
                                         <label for="fname" class="col-sm-3 text-right control-label col-form-label">Nama Barang</label>
                                         <div class="col-sm-9">
                                             <input type="text" class="form-control" id="fname" name="nama">
@@ -40,13 +40,21 @@
                                         <div class="col-sm-9">
                                             <input type="number" class="form-control" id="lname" name="har">
                                         </div>
-                                    </div>
+                                    </div> -->
                                     <div class="form-group row">
-                                        <label for="lname" class="col-sm-3 text-right control-label col-form-label">Deskripsi</label>
+                                        <label for="lname" class="col-sm-3 text-right control-label col-form-label">Nama Barang</label>
                                         <div class="col-sm-9">
-                                            <input type="text" class="form-control" id="lname" name="des">
+                                            <input type="text" class="form-control" id="lname" name="nama">
                                         </div>
                                     </div>
+
+                                    <div class="form-group row">
+                                        <label for="lname" class="col-sm-3 text-right control-label col-form-label">Harga</label>
+                                        <div class="col-sm-9">
+                                            <input type="number" class="form-control" id="lname" name="harga" min="0">
+                                        </div>
+                                    </div>
+                                    
                                     
                                     
                                     
